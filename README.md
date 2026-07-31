@@ -21,6 +21,7 @@ The Google Play Store contains millions of apps, but quality doesn't always corr
 - Dashboard creation in Google Sheets
 
 ## Project Structure
+```
 google-play-store-analysis/
 ├── data/
 │ └── googleplaystore_clean.csv
@@ -34,6 +35,7 @@ google-play-store-analysis/
 │ ├── top_categories_chart.png
 │ └── Google Play Store Growth Intelligence Report.pdf
 └── README.md
+```
 
 ## How to Run This Analysis
 1. Clone this repository to your local machine
