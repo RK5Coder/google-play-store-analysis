@@ -21,25 +21,30 @@ The Google Play Store contains millions of apps, but quality doesn't always corr
 - Dashboard creation in Google Sheets
 
 ## Project Structure
-Google_Play_Analytics_Project/
-├── data/ # Raw and cleaned datasets
-├── notebooks/ # Python analysis code
-├── sql/ # Database files
-└── final_assets/ # Charts, CSV files, and report backups
+google-play-store-analysis/
+├── data/
+│ └── googleplaystore_clean.csv
+├── notebooks/
+│ └── data_analysis.py
+├── final_assets/
+│ ├── engagement_by_category_chart.png
+│ ├── paid_vs_free_chart.png
+│ ├── rating_distribution_chart.png
+│ ├── size_distribution_chart.png
+│ ├── top_categories_chart.png
+│ └── Google Play Store Growth Intelligence Report.pdf
+└── README.md
 
 ## How to Run This Analysis
 1. Clone this repository to your local machine
 2. Install required packages: pandas, numpy, matplotlib, seaborn, sqlite3
 3. Run the data_analysis.py file in the notebooks folder
-4. View the generated charts and CSV files in the final_assets folder
-5. Open google_play_analytics_project.xlsx to see the complete analysis dashboard
+4. View the generated charts and report in the final_assets folder
 
 ## Files Included
-- `data/googleplaystore.csv` - Raw dataset from Kaggle
 - `data/googleplaystore_clean.csv` - Cleaned dataset after preprocessing
 - `notebooks/data_analysis.py` - Complete Python analysis code
-- `sql/google_play_apps.db` - SQLite database with cleaned data
-- `final_assets/` - All generated charts, CSV files, and reports
+- `final_assets/` - All generated charts and final report
 
 ## Insights and Recommendations
 Based on my analysis, I recommend:
@@ -52,4 +57,4 @@ Ravi Khunt
 LinkedIn - https://www.linkedin.com/in/ravi-khunt01/
 
 ## Acknowledgment
-- Dataset provided by Kaggle user lava18
+Dataset provided by Kaggle user lava18
