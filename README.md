@@ -24,16 +24,17 @@ The Google Play Store contains millions of apps, but quality doesn't always corr
 ```
 google-play-store-analysis/
 ├── data/
-│ └── googleplaystore_clean.csv
+│   └── googleplaystore_clean.csv
 ├── notebooks/
-│ └── data_analysis.py
+│   └── data_analysis.py
 ├── final_assets/
-│ ├── engagement_by_category_chart.png
-│ ├── paid_vs_free_chart.png
-│ ├── rating_distribution_chart.png
-│ ├── size_distribution_chart.png
-│ ├── top_categories_chart.png
-│ └── Google Play Store Growth Intelligence Report.pdf
+│   ├── engagement_by_category_chart.png
+│   ├── paid_vs_free_chart.png
+│   ├── rating_distribution_chart.png
+│   ├── size_distribution_chart.png
+│   ├── top_categories_chart.png
+│   ├── Google Play Store Growth Intelligence Report.pdf
+│   └── google_play_dashboard.xlsx
 └── README.md
 ```
 
@@ -46,6 +47,7 @@ google-play-store-analysis/
 ## Files Included
 - `data/googleplaystore_clean.csv` - Cleaned dataset after preprocessing
 - `notebooks/data_analysis.py` - Complete Python analysis code
+- `final_assets/google_play_dashboard.xlsx` - Complete dashboard with data, KPIs, charts, and hidden gems
 - `final_assets/` - All generated charts and final report
 
 ## Insights and Recommendations
